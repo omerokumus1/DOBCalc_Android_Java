@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/bgColor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YOUR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/textBlue"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"/>
+
+    <Button
+        android:id="@+id/datePicketBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:backgroundTint="@color/btnBgColor"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/selectedDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04/07/1997"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected date"
+        android:textColor="@color/lightGrey"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/inMinutesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1500"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In minutes till date"
+        android:textColor="@color/lightGrey"
+        android:textSize="16sp"
+        />
+
+
+
+
+
+</LinearLayout>
